@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss/37/user/2344863).
-* Наставник: `Неизвестно`.
+* Студент: [Константин Шушаков](https://up.htmlacademy.ru/htmlcss/37/user/2344863).
+* Наставник: [Ольга Ветер](https://htmlacademy.ru/profile/id73199).
 
 ---
 
