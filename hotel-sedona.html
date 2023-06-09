@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Гомтиницы Седона</title>
+  </head>
+  <body>
+    <header class="header-page">
+      <a href="#"><img class="logo" src="logo-sedona.png" alt="Логотип города Седона"></a>
+      <nav class="navigation-page">
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="about-sedona.html">О седоне</a></li>
+          <li><a href="hotel-sedona.html">Гостиницы</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Поиск</a></li>
+          <li><a href="#">Избранное</a></li>
+          <li><a href="#">Хочу сюда</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="hotel-catalog">
+    <header class="hotel-sorting">
+      <h1 class="hotel-sorting-title">Гостиницы Седона</h1>
+      <ul class="breadcrumbs">
+        <li class="breadcrumbs-item">
+          <a class="breadcrumbs-link" href="index.html">Главная</a>
+        </li>
+        <li class="breadcrumbs-item">
+         <a class="breadcrumbs-link" href="#">Каталог</a>
+        </li>
+      </ul>
+    </header>
+    <section class="hotel-catalog-filter">
+      <h2 class="visually-hidden">Филтры для подбора гостиницы</h2>
+      <form class="catalog-filter" action="https://echo.htmlacademy.ru" metod="get">
+        <fieldset class="catalog-filter-group">
+          <legend class="catalog-filter-title">Инфраструктура:</legend>
+          <ul class="catalog-filter-list">
+            <li class="catalog-filter-item">
+              <label class="control">Бассейн
+                <input class="control-input" type="checkbox" name="swimming-pool">
+              </label>
+            </li>
+            <li class="catalog-filter-item">
+              <label class="control">Парковка
+                <input class="control-input" type="checkbox" name="parking">
+              </label>
+            </li>
+            <li class="catalog-filter-item">
+              <label class="control">Wi-Fi
+                <input class="control-input" type="checkbox" name="wi-fi">
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="catalog-filter-group">
+          <legend class="catalog-filter-title">Тип жилья:</legend>
+        </fieldset>
+        <fieldset>
+
+        </fieldset>
+      </form>
+
+    </section>
+
+
+
+    </main>
+  </body>
