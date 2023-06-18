@@ -7,7 +7,7 @@
   <body>
     <!--header взял со страницы index -->
     <header class="header-page">
-      <a href="#"><img class="logo" src="logo-sedona.png" alt="Логотип города Седона"></a>
+      <a href="#"><img class="logo" src="img/logo-sedona.svg" alt="Логотип города Седона"></a>
       <nav class="navigation-page">
         <ul>
           <li><a href="index.html">Главная</a></li>
@@ -15,8 +15,8 @@
           <li><a href="hotel-sedona.html">Гостиницы</a></li>
         </ul>
         <ul>
-          <li><a href="#">Поиск</a></li>
-          <li><a href="#">Избранное</a></li>
+          <li><a href="#"><img src="img/luope.png" width="20px" height="20px" alt="Поиск" style="color:black"></a></li>
+          <li><a href="#"><img src="img/heart.png" width="20px" height="20px" alt="Избранное" style="color:black"></a></li>
           <li><a href="#">Хочу сюда</a></li>
         </ul>
       </nav>
@@ -104,19 +104,23 @@
     </section>
     <section class="hotel-catalog-view">
       <a href="#" class="hotel-catalog-view-button">
+        <img src="img\vector-tile.svg" alt="плитка карточек гостиниц">
         <span class="visually-hidden">Карточки гостиниц</span>
       </a>
       <a href="#" class="hotel-catalog-view-button">
+        <img src="img\vector-card.svg" alt="по одной карточке гостиницы">
         <span class="visually-hidden">По одной карточке гостиницы</span>
       </a>
       <a href="#" class="hotel-catalog-view-button">
+        <img src="img\vector-list.svg" alt="список гостиниц">
         <span class="visually-hidden">Список гостиниц</span>
       </a>
     </section>
+    <!--список карточек гостиниц-->
     <ul>
       <li>
         <a class="hotel-card" href="#">
-          <img class="hotel-card-image" src="#" alt="Amara Resot & Spa">
+          <img class="hotel-card-image" src="img\amara-resort-spa.jpg" alt="Amara Resot & Spa">
           <h3 class="hotel-card-title">Amara Resot & Spa</h3>
           <span class="hotel-card-housing">Гостиница</span>
           <span class="hotel-card-price">От 4000 ₽</span>
@@ -124,7 +128,7 @@
         <a class="hotel-card" href="#">Подробнее</a>
         <button class="hotel-card-favourites" name="add to favorites" value="yes">В избранное</button>
         <a class="hotel-star" href="#">
-          <img class="hotel-star-4" href="#" alt="Четыре звезды">
+          <img class="hotel-star-4" src="img\stars-four.png" width="140" height="37" alt="Четыре звезды">
         </a>
         <a class="hotel-rating-button" href="#">
           <span class="hotel-rating-value">Рейтинг: 8,5</span>
@@ -132,7 +136,7 @@
       </li>
       <li>
         <a class="hotel-card" href="#">
-          <img class="hotel-card-image" src="#" alt="Villas at Poco Diablo">
+          <img class="hotel-card-image" src="img\villas-at-poco-diablo.jpg" alt="Villas at Poco Diablo">
           <h3 class="hotel-card-title">Villas at Poco Diablo</h3>
           <span class="hotel-card-housing">Гостиница</span>
           <span class="hotel-card-price">От 5000 ₽</span>
@@ -140,7 +144,7 @@
         <a class="hotel-card" href="#">Подробнее</a>
         <button class="hotel-card-favourites" name="add to favorites" value="yes">В избранное</button>
         <a class="hotel-star" href="#">
-          <img class="hotel-star-4" href="#" alt="Четыре звезды">
+          <img class="hotel-star-4" src="img\stars-four.png" width="140" height="37" alt="Четыре звезды">
         </a>
         <a class="hotel-rating-button" href="#">
           <span class="hotel-rating-value">Рейтинг: 9,2</span>
@@ -148,7 +152,7 @@
       </li>
       <li>
         <a class="hotel-card" href="#">
-          <img class="hotel-card-image" src="#" alt="Desert Quail Inn">
+          <img class="hotel-card-image" src="img\desert-quail-inn.jpg" alt="Desert Quail Inn">
           <h3 class="hotel-card-title">Desert Quail Inn</h3>
           <span class="hotel-card-housing">Гостиница</span>
           <span class="hotel-card-price">От 2500 ₽</span>
@@ -156,7 +160,7 @@
         <a class="hotel-card" href="#">Подробнее</a>
         <button class="hotel-card-favourites" name="add to favorites" value="yes">В избранное</button>
         <a class="hotel-star" href="#">
-          <img class="hotel-star-3" href="#" alt="Три звезды">
+          <img class="hotel-star-3" src="img\stars-three.png" width="140" height="37" alt="Три звезды">
         </a>
         <a class="hotel-rating-button" href="#">
           <span class="hotel-rating-value">Рейтинг: 6,9</span>
@@ -164,7 +168,7 @@
       </li>
       <li>
         <a class="hotel-card" href="#">
-          <img class="hotel-card-image" src="#" alt="GreenTree Inn">
+          <img class="hotel-card-image" src="img\greentree-inn.jpg" alt="GreenTree Inn">
           <h3 class="hotel-card-title">GreenTree Inn</h3>
           <span class="hotel-card-housing">Гостиница</span>
           <span class="hotel-card-price">От 1500 ₽</span>
@@ -172,7 +176,7 @@
         <a class="hotel-card" href="#">Подробнее</a>
         <button class="hotel-card-favourites" name="add to favorites" value="yes">В избранное</button>
         <a class="hotel-star" href="#">
-          <img class="hotel-star-2" href="#" alt="Две звезды">
+          <img class="hotel-star-2" src="img\stars-two.png" width="140" height="37" alt="Две звезды">
         </a>
         <a class="hotel-rating-button" href="#">
           <span class="hotel-rating-value">Рейтинг: 5,0</span>
@@ -217,16 +221,19 @@
       <ul class="footer-social-list">
         <li class="footer-social-item">
           <a class="button" href="https://vk.com/htmlacademy">
+            <img src="img\vector-vk.png" width="22px" height="17px" alt="в контакте">
             <span class="visually-hidden">В контакте</span>
           </a>
         </li>
         <li class="footer-social-item">
           <a class="button" href="https://t.me/htmlacademy">
+            <img src="img\vector-telega.png" width="22px" height="17px" alt="телеграм">
             <span class="visually-hidden">Телеграм</span>
           </a>
         </li>
         <li class="footer-social-item">
           <a class="button" href="https://www.youtube.com/user/htmlacademyru">
+            <img src="img\vector-youtube.png" width="22px" height="17px" alt="ютуб">
             <span class="visually-hidden">Ютуб</span>
           </a>
         </li>
@@ -236,6 +243,6 @@
       <h2 class="visually-hidden">Связаться с нами можно по телефону</h2>
       <a class="footer-fone" href="tel:88005558628">+7 (812) 812-12-12</a>
       </section>
-      <a href="https://htmlacademy.ru/"><img class="logo-html.png" src="#" alt="Логотип HTMLAcademy"></a>
+      <a href="https://htmlacademy.ru/"><img class="logo-html" src="img\html academy.png" width="114.9px" height="32.9px" alt="Логотип HTMLAcademy"></a>
     </footer>
   </body>
