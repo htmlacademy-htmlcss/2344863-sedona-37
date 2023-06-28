@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+body{
+font-family: "PT Sans", sans-serif;
+font-size: 18px;
+line-height: 21px;
+font-weight: 400;
+color: #333333;
+background-color: white;
+}
+
+/*Главая страница*/
+/*header*/
+.logo{
+  margin: 0px 30px 0px 70px;
+}
+.navigation-link{
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  text-decoration: none;
+}
+.navigation-list-user .navigation-item .navigation-link{
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.hero{
+  background-image: url("../img/index-background.jpg");
+  background-repeat: no-repeat;
+  /*background-color: aqua;*/
+  background-size: auto;
+  width: 1200px;
+  height: 767px;
+}
+.divider{
+  width: 1200px;
+  height: 57px;
+  margin-top: -22px;
+}
+.welcome{
+  width: 458px;
+  height: 352px;
+  margin: 51px 371px 0px;
+}
+.main-index-title{
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 69px;
+}
+.main-index-description{
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0px;
+}
+.advantage-list{
+text-align: center;
+}
+.advantage-item{
+
+}
+.advantage-title{
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.advantage-description{
+
+}
+.invitation{
+  text-align: center;
+}
+.invitation-title{
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.invitation-description{
+  ont-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  }

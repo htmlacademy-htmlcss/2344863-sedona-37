@@ -3,29 +3,33 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header class="header-page">
       <a href="#"><img class="logo" src="img/logo-sedona.svg" alt="Логотип города Седона"></a>
       <nav class="navigation-page">
-        <ul>
-          <li><a href="index.html">Главная</a></li>
-          <li><a href="about-sedona.html">О седоне</a></li>
-          <li><a href="hotel-sedona.html">Гостиницы</a></li>
+        <ul class="navigation-list-site">
+          <li class="navigation-item"><a class="navigation-link" href="index.html">Главная</a></li>
+          <li class="navigation-item"><a class="navigation-link" href="about-sedona.html">О седоне</a></li>
+          <li class="navigation-item"><a class="navigation-link" href="hotel-sedona.html">Гостиницы</a></li>
         </ul>
-        <ul>
-          <li><a href="#"><img src="img/luope.png" width="20px" height="20px" alt="Поиск" style="color:black"></a></li>
-          <li><a href="#"><img src="img/heart.png" width="20px" height="20px" alt="Избранное" style="color:black"></a></li>
-          <li><a href="#">Хочу сюда</a></li>
+        <ul class="navigation-list-user">
+          <li class="navigation-item"><a class="navigation-link" href="#"><img src="img/luope.png" width="20px" height="20px" alt="Поиск" style="color:black"></a></li>
+          <li class="navigation-item"><a class="navigation-link" href="#"><img src="img/heart.png" width="20px" height="20px" alt="Избранное" style="color:black"></a></li>
+          <li class="navigation-item"><a class="navigation-link" href="#">Хочу сюда</a></li>
         </ul>
       </nav>
     </header>
     <!--контент страницы -->
     <main class="main-index">
+      <section class="hero">
       <h1 class="visually-hidden">Седона</h1>
-      <img src="img\welcome.svg" width="1200px" height="485px" style="background-image: url(img/index-background.jpg);">
-      <h2 class="main-index-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
+      <img class="welcome" src="img\welcome.svg" alt="Добро пожаловать в город Седона">
+      <img class="divider" src="img/divider.png" alt="Делитель">
+      <h2 class="main-index-title">Седона — небольшой городок в Аризоне,<br> заслуживающий большего!</h2>
       <p class="main-index-description">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+      </section>
       <!--список преимуществ -->
       <section class="advantage">
         <ul class="advantage-list">
@@ -58,7 +62,7 @@
         </ul>
       </section>
         <section class="invitation">
-          <h2 class="invitation-title">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
+          <h2 class="invitation-title">Приезжайте в Седону отдохнуть<br> в комфорте и уюте!</h2>
             <p class="invitation-description">Опытный персонал и качественное обслуживание!</p>
         </section>
         <section class="services">
