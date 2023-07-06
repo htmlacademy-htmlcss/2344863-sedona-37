@@ -88,6 +88,10 @@ text-align: center;
 .advantage-description{
 
 }
+.advantage-item-img{
+  width: 800px;
+  height: 385px;
+}
 .invitation{
   text-align: center;
 }
@@ -102,3 +106,102 @@ text-align: center;
   line-height: 26px;
   font-weight: 400;
   }
+.services-list{
+  width: 1200px;
+  height: 385px;
+  display: inline;
+}
+.services-item{
+  width: 400px;
+  height: 385px;
+  background-color: rgba(131, 179, 211, 0.12);
+  list-style-type: none;
+}
+.services-title{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  /*padding: 183px 85px 174px 85px;*/
+}
+.services-description{
+  text-align: center;
+}
+.services-item-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  /*padding: 81px 161.5px 232px 163.5px;*/
+  width: 75px;
+  height: 72px;
+}
+.choosing-hotel-index{
+  text-align: center;
+}
+.choosing-hotel-index strong{
+  /*text-align: center;*//*почему это правило здесь не работало??*/
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+
+}
+.choosing-hotel-index p{
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.choosing-hotel-index-button{
+
+}
+.subscribe-news{
+  background-color:lightgray;
+  background-image: url("../img/subscribe-background.png");
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 415px;
+  text-align: center;
+}
+.subscribe-news-title{
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.subscribe-news-description{
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #ffffff;
+  width: 475px;
+  /*text-align: center;*//*правило не наследуется от "subscribe-news" и здесь не работает */
+}
+.subscribe-news-form{
+
+}
+.button-subscribe-news{
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #82B3D3;
+  color: #ffffff;
+}
+.footer-social{
+
+}
+.footer-social-item{
+  list-style-type: none;
+}
+.footer-fone{
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+}
